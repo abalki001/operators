@@ -9,7 +9,7 @@ import (
 	//metav1 "k8s.io/apimachinery/pkg/apis/meta/v1"
 	"k8s.io/apimachinery/pkg/runtime"
 	//"k8s.io/apimachinery/pkg/types"
-	nginxv1alpha1 "persistent.com/nginx/nginx-operator-ab1/pkg/apis/nginx/v1alpha1"
+	nginxv1alpha1 "persistent.com/nginx/nginx-operator/pkg/apis/nginx/v1alpha1"
 	
 	
 	"sigs.k8s.io/controller-runtime/pkg/client"
