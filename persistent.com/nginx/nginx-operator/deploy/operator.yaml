@@ -16,7 +16,7 @@ spec:
       containers:
         - name: nginx-operator
           # Replace this with the built image name
-          image: quay.io/abalki/nginx-operator:0.0.1
+          image: quay.io/abalki/nginx-operator:v0.0.1
           command:
           - nginx-operator
           imagePullPolicy: Always
